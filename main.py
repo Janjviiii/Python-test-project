@@ -1,2 +1,10 @@
 print('hello world')
+name=input('enter your name')
+time= float(input('enter the current timing'))
+if(time<12)
+print('good morning')
+elif(time<16)
+print('good afternoon')
+else(time>20)
+print('good night')
 
